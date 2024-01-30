@@ -1,0 +1,14 @@
+#required::before {
+  content: "before";
+  display: block;
+  background: red;
+  width: 150px;
+  height: 150px;
+}
+#required::after {
+  content: "after";
+  display: block;
+  background: rgb(72, 255, 0);
+  width: 150px;
+  height: 150px;
+}
